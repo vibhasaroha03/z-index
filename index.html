@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .a {
+        height: 500px;
+        width: 600px;
+        background: purple;
+        z-index: 1;
+        position: relative;
+        top: 50px;
+      }
+      .b {
+        background: yellow;
+        height: 300px;
+        width: 200px;
+        position: absolute;
+        top: 50px;
+        left: 70px;
+        z-index: 2;
+      }
+      .c {
+        background: black;
+        border: 2px solid yellow;
+        height: 100px;
+        width: 300px;
+        position: absolute;
+        left: 200px;
+        top: 300px;
+        color: white;
+        z-index: 3;
+      }
+
+      .d {
+        background: green;
+        height: 250px;
+        width: 100px;
+        border: 2px solid yellow;
+        top: 20px;
+        position: absolute;
+        z-index: 4;
+        left: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="a"></div>
+    <div class="b">
+      <p>Square1</p>
+    </div>
+    <div class="c">
+      <p>Suare2</p>
+    </div>
+    <div class="d">
+      <p>Square3</p>
+    </div>
+  </body>
+</html>
